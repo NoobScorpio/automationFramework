@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f49628-1b55-4209-875d-5f12b89c8189" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/search_data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/automationFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automationFramework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/bingPage/bing_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bingPage/bing_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/googlePage/google_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/googlePage/google_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/yahooPage/yahoo_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/yahooPage/yahoo_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/read_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/read_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/xml_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/xml_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search_tdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search_tdd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testGoogleSearch/test_google_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testGoogleSearch/test_google_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testYahooSearch/test_yahoo_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testYahooSearch/test_yahoo_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -18,19 +18,19 @@ If your code editor already has an environment activated then you are good to go
 
 1. This will create a new environment with name venv
 On a powershell window:
-```commandline
-.\venv\Scripts\Activate.ps1
+```
+ .\venv\Scripts\Activate.ps1
 ```
 On a command line terminal:
-```commandline
+```
 venv\Scripts\activate
 ```
 On a linux\macos terminal:
-```commandline
+```
 source venv/bin/activate
 ```
 2. This will activate the environment:
-```commandline
+```
 python -m venv venv
 ```
 #### Python packages:
@@ -61,16 +61,16 @@ or for all directories:
  pytest .\tests\ --browser=<browser-name>
 ```
 If you want to run tests parally we can use the following command:
-```commandline
+```
 pytest -n=3 .\tests\testGoogleSearch\ --browser=chrome
 ```
 For more clean output and information use **-v**:
-```commandline
+```
 pytest -v .\tests\testGoogleSearch\ --browser=chrome
 ```
 #### Note: 
 Inside test_google_search.py, parameterization is implemented.
-```commandline
+```
 @pytest.mark.parametrize("search", k.SEARCHES)
 ```
 #### Note: 
@@ -80,20 +80,40 @@ the 3 searches 3 times which will be 9 searches.
 
 ## Group Run Tests
 Use pytest **-m** tag to group testcases:
-```commandline
+```
 pytest -m "sanity" .\tests\ 
 ```
 or
-```commandline
+```
 pytest -m "sanity or regression" .\tests\ --browser=chrome
 ```
 
 ## HTML Report
 To generate an HTML report for the tests, you can use the above commands with this **--html* extra command 
 line parameter as follows:
-```commandline
+```
 pytest --html=reports\report.html .\tests\ --browser=chrome
 ```
+
+## Allure Reporting
+To use allure reports, Install allure from **allure official website** and add the **allure/bin/** 
+to the environment path variable. To generate an Allure report for the tests, you can use the above 
+commands with this **--alluredir** extra command line parameter as follows:
+```
+pytest --alluredir=.\reports\ .\tests\ --browser=chrome
+```
+When the test finishes, use the following command to generate the report:
+```
+allure serve .\reports\
+```
+To generate html report:
+```
+allure generate
+```
+This will create **allure-report** folder with required files.
+
+Examples:
+![img_1.png](img_1.png) ![img_2.png](img_2.png)
 ## Adding more browsers support
 
 You can add more browser support by simpling adding the browser name and driver
@@ -101,7 +121,7 @@ under **driver fixture** method in **conftest.py** and that's it.
 
 ## Folder Structure
 
-```commandline
+```
 automationFramework
 ├── .venv
 ├── config
@@ -127,7 +147,6 @@ automationFramework
 │   ├── logger.py
 │   ├── read_config.py
 │   └── xml_parser.py
-├── screenshots
 ├── testData
 │   └── search_data.xlsx
 ├── tests
@@ -139,6 +158,7 @@ automationFramework
 │   ├── testYahooSearch
 │   │   └── test_yahoo_search.py
 │   └── test_base.py
+├── .gitignore
 ├── conftest.py
 ├── img.png
 ├── README.MD

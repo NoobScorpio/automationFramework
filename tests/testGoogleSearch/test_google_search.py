@@ -1,5 +1,6 @@
 import time
 
+import allure
 import pytest
 
 from pages.googlePage.google_page import GoogleBasePage
@@ -7,6 +8,7 @@ import resources.constants as k
 from tests.test_base import TestBase
 
 
+@allure.severity(allure.severity_level.NORMAL)
 class TestGoogleSearchSuite(TestBase):
     def setup_method(self):
         """
@@ -43,6 +45,5 @@ class TestGoogleSearchSuite(TestBase):
             assert res
         else:
             self.log.error(f"FAIL: Verify search on Google: {search}")
+            self.capture_screenshot(driver,name="test_google_search")
             assert False
-
-

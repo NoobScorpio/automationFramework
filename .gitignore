@@ -1,5 +1,5 @@
-./reports
-./logs
-./screenshots
+logs/*
+reports/*
+screenshots/*
 .venv
 *.pyc

@@ -1,12 +1,14 @@
 import time
 
+import allure
 import pytest
+from allure_commons.types import AttachmentType
 
 from pages.bingPage.bing_page import BingBasePage
 import resources.constants as k
 from tests.test_base import TestBase
 from resources.xml_parser import XMLParser
-
+@allure.severity(allure.severity_level.CRITICAL)
 class TestBingSearchTDDSuite(TestBase):
     def setup_method(self):
         """
@@ -56,10 +58,13 @@ class TestBingSearchTDDSuite(TestBase):
                 else:
                     self.log.error(f"FAIL: Verify search TDD on Bing: {search}")
                     results.append(False)
+                    self.capture_screenshot(driver, name=f"test_bing_search_tdd_{row}")
             else:
                 if res:
                     self.log.error(f"FAIL: Verify search TDD on Bing: {search}")
                     results.append(False)
+                    self.capture_screenshot(driver, name=f"test_bing_search_tdd_{row}")
+
                 else:
                     self.log.info(f"PASS: Verify search TDD on Bing: {search}")
                     results.append(True)

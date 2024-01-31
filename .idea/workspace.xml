@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f49628-1b55-4209-875d-5f12b89c8189" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search_tdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search_tdd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testGoogleSearch/test_google_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testGoogleSearch/test_google_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testYahooSearch/test_yahoo_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testYahooSearch/test_yahoo_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +34,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/README.MD" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,6 +57,7 @@
     "Python tests.Python tests for test_google_search.Test_Google_Search_Suite.test_search.executor": "Run",
     "Python tests.Python tests for test_search.test_open_browser.executor": "Run",
     "Python tests.Python tests in test_google_search.py.executor": "Run",
+    "Python.tester.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -63,7 +79,7 @@
       <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework\pages\bing_page" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_google_search.py">
+  <component name="RunManager" selected="Python.tester">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="automationFramework" />
       <option name="ENV_FILES" value="" />
@@ -78,6 +94,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tester" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tester.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,6 +216,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tester" />
         <item itemvalue="Python tests.Python tests in test_google_search.py" />
         <item itemvalue="Python tests.Python tests for tests.testGoogleSearch.test_google_search.TestGoogleSearchSuite" />
         <item itemvalue="Python tests.Python tests for tests.testGoogleSearch.test_google_search.TestGoogleSearchSuite.test_search" />

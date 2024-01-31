@@ -3,8 +3,10 @@ import pytest
 from pages.bingPage.bing_page import BingBasePage
 import resources.constants as k
 from tests.test_base import TestBase
+import allure
 
 
+@allure.severity(allure.severity_level.NORMAL)
 class TestBingSearchSuite(TestBase):
     def setup_method(self):
         """
@@ -38,5 +40,6 @@ class TestBingSearchSuite(TestBase):
                 self.log.info(f"PASS: Verify search on Bing: {search}")
                 assert res
             else:
+                self.capture_screenshot(driver, name=f"test_bing_search")
                 self.log.error(f"FAIL: Verify search on Bing: {search}")
                 assert False

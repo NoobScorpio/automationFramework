@@ -1,12 +1,13 @@
 import time
 
+import allure
 import pytest
 
 from pages.yahooPage.yahoo_page import YahooBasePage
 import resources.constants as k
 from tests.test_base import TestBase
 
-
+@allure.severity(allure.severity_level.MINOR)
 class TestYahooSearchSuite(TestBase):
     def setup_method(self):
         """
@@ -41,6 +42,7 @@ class TestYahooSearchSuite(TestBase):
                 assert res
             else:
                 self.log.error(f"FAIL: Verify search on Yahoo: {search}")
+                self.capture_screenshot(driver, name=f"test_yahoo_search")
                 assert False
 
 

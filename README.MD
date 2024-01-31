@@ -13,13 +13,33 @@ other IDEs, make sure that you have the following prerequisites installed:
 - Python 3.x
 - pip
 
-## Python packages:
+#### Virtual environment
+If your code editor already has an environment activated then you are good to go otherwise follow these commands:
+
+1. This will create a new environment with name venv
+On a powershell window:
+```commandline
+.\venv\Scripts\Activate.ps1
+```
+On a command line terminal:
+```commandline
+venv\Scripts\activate
+```
+On a linux\macos terminal:
+```commandline
+source venv/bin/activate
+```
+2. This will activate the environment:
+```commandline
+python -m venv venv
+```
+#### Python packages:
 Install the required with help of PyCharm package 
 manager, or you can use the following bash command:
 ```bash
 pip install -r requirements.txt
 ```
-
+Now you are good to go.
 ## Running Tests
 Before running tests, we should know that every file or test case should
 start with 'test_'. This is done so that PyTest can collect all the required 

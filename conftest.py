@@ -1,5 +1,6 @@
 from selenium import webdriver
 import pytest
+from resources.read_config import ReadConfig as Cfg
 
 
 def pytest_addoption(parser):
@@ -25,3 +26,8 @@ def driver(request):
     yield driver
     driver.quit()
 
+
+@pytest.mark.optionalhook
+def pytest_metadata(metadata):
+    metadata.pop("JAVA_HOME", None)
+    metadata.pop("Plugins", None)

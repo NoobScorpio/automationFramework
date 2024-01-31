@@ -44,6 +44,10 @@ If you want to run tests parally we can use the following command:
 ```commandline
 pytest -n=3 .\tests\testGoogleSearch\ --browser=chrome
 ```
+For more clean output and information use **-v**:
+```commandline
+pytest -v .\tests\testGoogleSearch\ --browser=chrome
+```
 #### Note: 
 Inside test_google_search.py, parameterization is implemented.
 ```commandline
@@ -79,12 +83,13 @@ under **driver fixture** method in **conftest.py** and that's it.
 
 ```commandline
 automationFramework
-├── .venv library root
+├── .venv
 ├── config
 │   ├── config.ini
 │   └── pytest.ini
 ├── logs
 ├── pages
+│   ├── __init__.py
 │   ├── bingPage
 │   │   └── bing_page.py
 │   ├── googlePage
@@ -114,7 +119,6 @@ automationFramework
 │   ├── testYahooSearch
 │   │   └── test_yahoo_search.py
 │   └── test_base.py
-├── classes.png
 ├── conftest.py
 ├── img.png
 ├── README.MD
@@ -124,4 +128,4 @@ automationFramework
 
 ```
 ## Class Diagrams
-
+![img.png](img.png)

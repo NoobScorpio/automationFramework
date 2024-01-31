@@ -1,29 +1,42 @@
 import time
-from pages.bing_utils import BingUtils
-from resources.constants import BingGlossary
+import pytest
+from pages.bingPage.bing_page import BingBasePage
+import resources.constants as k
+from tests.test_base import TestBase
 
 
-class Test_Bing_Search_Suite:
+class TestBingSearchSuite(TestBase):
     def setup_method(self):
         """
         :return:
         """
-        self.BingPage = BingUtils()
-        self.helper = self.BingPage.helper
+        self.BingPage = BingBasePage()
+        self.BingPage.set_helper(self.helper)
 
+    @pytest.mark.regression
     def test_search(self, driver):
         """
         :param driver:
         :return:
         """
-        searches = [BingGlossary.SIMPLE_SEARCH, BingGlossary.NUMBERS_SEARCH, BingGlossary.SPECIAL_SEARCH]
-        for search in searches:
-            driver.get(BingGlossary.Bing_URL)
+        self.log.info(f"test_bing_search tested by {self.tester}")
+        for search in k.SEARCHES:
+
+            self.log.info("Load Bing URL")
+            driver.get(k.BingGlossary.Bing_URL)
+
+            self.log.info("Wait for URL to load")
             self.BingPage.wait_for_loading(driver)
             driver.maximize_window()
+
+            self.log.info(f"Verify search on Bing: {search}")
             self.BingPage.search(driver, search)
             time.sleep(2)
             res = self.BingPage.get_result(driver)
-            assert res
 
-
+            if res:
+                self.log.info(f"PASS: Verify search on Bing: {search}")
+                assert res
+            else:
+                self.log.error(f"FAIL: Verify search on Bing: {search}")
+                assert False

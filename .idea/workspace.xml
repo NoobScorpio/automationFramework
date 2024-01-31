@@ -1,20 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f49628-1b55-4209-875d-5f12b89c8189" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/search_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/automationFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automationFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bingPage/bing_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bingPage/bing_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/googlePage/google_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/googlePage/google_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/yahooPage/yahoo_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/yahooPage/yahoo_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/read_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/read_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/xml_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/xml_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search_tdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search_tdd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testGoogleSearch/test_google_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testGoogleSearch/test_google_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testYahooSearch/test_yahoo_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testYahooSearch/test_yahoo_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bdwmIOwXScc8d7c83ZkQyCGiYa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,12 +63,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for search_testcases.test_open_browser.executor": "Run",
+    "Python tests.Python tests for test_google_search.Test_Google_Search_Suite.executor": "Run",
+    "Python tests.Python tests for test_google_search.Test_Google_Search_Suite.test_search.executor": "Run",
+    "Python tests.Python tests for test_search.test_open_browser.executor": "Run",
+    "Python tests.Python tests in test_google_search.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/noobscorpio/PycharmProjects/automationFramework/pages/yahooPage",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework\pages\yahooPage" />
+      <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework\pages\googlePage" />
+      <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework\pages\bingPage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework" />
+      <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework\config" />
+      <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework\pages\yahooPage" />
+      <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework\pages\google_page" />
+      <recent name="C:\Users\noobscorpio\PycharmProjects\automationFramework\pages\bing_page" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_google_search.py">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="automationFramework" />
       <option name="ENV_FILES" value="" />
@@ -51,6 +112,104 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for testCases.searchTestCases.test_search.test_open_browser" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases/searchTestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCases.searchTestCases.test_search.test_open_browser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.searchTestCases.test_search.test_open_browser" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/searchTestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.searchTestCases.test_search.test_open_browser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.testGoogleSearch.test_google_search" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/testGoogleSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.testGoogleSearch.test_google_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.testGoogleSearch.test_google_search.TestGoogleSearchSuite" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/testGoogleSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.testGoogleSearch.test_google_search.TestGoogleSearchSuite&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.testGoogleSearch.test_google_search.TestGoogleSearchSuite.test_search" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/testGoogleSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.testGoogleSearch.test_google_search.TestGoogleSearchSuite.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_google_search.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/testGoogleSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/testGoogleSearch/test_google_search.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_google_search.py" />
+        <item itemvalue="Python tests.Python tests for tests.testGoogleSearch.test_google_search.TestGoogleSearchSuite" />
+        <item itemvalue="Python tests.Python tests for tests.testGoogleSearch.test_google_search.TestGoogleSearchSuite.test_search" />
+        <item itemvalue="Python tests.Python tests for tests.testGoogleSearch.test_google_search" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -69,16 +228,5 @@
       <updated>1706558421909</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,5 @@
+./reports/*
+./logs/*
+./screenshots/*
+.venv
+./resources/__pycharm__/*

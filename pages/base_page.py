@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class PageUtils(ABC):
+class BasePage(ABC):
 
     @abstractmethod
     def wait_for_loading(self, driver):

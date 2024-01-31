@@ -1,29 +1,47 @@
 import time
-from pages.yahoo_utils import YahooUtils
-from resources.constants import YahooGlossary
+
+import pytest
+
+from pages.yahooPage.yahoo_page import YahooBasePage
+import resources.constants as k
+from tests.test_base import TestBase
 
 
-class Test_Yahoo_Search_Suite:
+class TestYahooSearchSuite(TestBase):
     def setup_method(self):
         """
         :return:
         """
-        self.YahooPage = YahooUtils()
-        self.helper = self.YahooPage.helper
+        self.yahooPage = YahooBasePage()
+        self.yahooPage.set_helper(self.helper)
 
+    @pytest.mark.regression
     def test_search(self, driver):
         """
         :param driver:
         :return:
         """
-        searches = [YahooGlossary.SIMPLE_SEARCH, YahooGlossary.NUMBERS_SEARCH, YahooGlossary.SPECIAL_SEARCH]
-        for search in searches:
-            driver.get(YahooGlossary.Yahoo_URL)
-            self.YahooPage.wait_for_loading(driver)
+        self.log.info("test_yahoo_search")
+        for search in k.SEARCHES:
+
+            self.log.info("Load Yahoo URL")
+            driver.get(k.YahooGlossary.Yahoo_URL)
+
+            self.log.info("Wait for URL to load")
+            self.yahooPage.wait_for_loading(driver)
             driver.maximize_window()
-            self.YahooPage.search(driver, search)
+
+            self.log.info(f"Verify search on Yahoo: {search}")
+            self.yahooPage.search(driver, search)
             time.sleep(2)
-            res = self.YahooPage.get_result(driver)
-            assert res
+            res = self.yahooPage.get_result(driver)
+
+            if res:
+                self.log.info(f"PASS: Verify search on Yahoo: {search}")
+                assert res
+            else:
+                self.log.error(f"FAIL: Verify search on Yahoo: {search}")
+                assert False
+
 
 

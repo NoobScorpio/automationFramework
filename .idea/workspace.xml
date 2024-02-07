@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1f49628-1b55-4209-875d-5f12b89c8189" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search_tdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testBingSearch/test_bing_search_tdd.py" afterDir="false" />
@@ -60,7 +56,7 @@
     "Python.tester.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "improv",
     "last_opened_file_path": "C:/Users/noobscorpio/PycharmProjects/automationFramework/pages/yahooPage",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }

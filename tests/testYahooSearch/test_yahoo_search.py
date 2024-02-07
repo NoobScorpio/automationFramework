@@ -17,16 +17,16 @@ class TestYahooSearchSuite(TestBase):
         self.yahooPage.set_helper(self.helper)
 
     @pytest.mark.regression
-    def test_search(self, driver):
+    def test_search(self, driver, env):
         """
         :param driver:
         :return:
         """
-        self.log.info("test_yahoo_search")
+        self.log.info(f"test_yahoo_search tested by {self.tester} on {env} environment")
         for search in k.SEARCHES:
 
             self.log.info("Load Yahoo URL")
-            driver.get(k.YahooGlossary.Yahoo_URL)
+            driver.get(k.BingGlossary().get_url(env))
 
             self.log.info("Wait for URL to load")
             self.yahooPage.wait_for_loading(driver)

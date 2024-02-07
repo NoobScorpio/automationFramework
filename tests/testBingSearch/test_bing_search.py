@@ -16,16 +16,16 @@ class TestBingSearchSuite(TestBase):
         self.BingPage.set_helper(self.helper)
 
     @pytest.mark.regression
-    def test_search(self, driver):
+    def test_search(self, driver,env):
         """
         :param driver:
         :return:
         """
-        self.log.info(f"test_bing_search tested by {self.tester}")
+        self.log.info(f"test_bing_search tested by {self.tester} on {env} environment")
         for search in k.SEARCHES:
 
             self.log.info("Load Bing URL")
-            driver.get(k.BingGlossary.Bing_URL)
+            driver.get(k.BingGlossary().get_url(env))
 
             self.log.info("Wait for URL to load")
             self.BingPage.wait_for_loading(driver)

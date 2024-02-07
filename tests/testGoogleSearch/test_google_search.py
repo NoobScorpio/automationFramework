@@ -21,15 +21,15 @@ class TestGoogleSearchSuite(TestBase):
 
     @pytest.mark.sanity
     @pytest.mark.parametrize("search", k.SEARCHES)
-    def test_search(self, driver, search):
+    def test_search(self, driver, env, search):
         """
         :param driver:
         :return:
         """
-        self.log.info("test_google_search")
+        self.log.info(f"test_google_search tested by {self.tester} on {env} environment")
 
         self.log.info("Load Google URL")
-        driver.get(k.GoogleGlossary.GOOGLE_URL)
+        driver.get(k.GoogleGlossary().get_url(env))
 
         self.log.info("Wait for URL to load")
         self.googlePage.wait_for_loading(driver)

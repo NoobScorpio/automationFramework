@@ -1,6 +1,5 @@
 from selenium import webdriver
 import pytest
-from resources.read_config import ReadConfig as Cfg
 
 
 def pytest_addoption(parser):
@@ -27,6 +26,7 @@ def driver(request):
     yield driver
     driver.quit()
 
+
 @pytest.fixture(scope="function")
 def env(request):
     env_name = request.config.getoption("--env", default="dev").lower()
@@ -35,10 +35,7 @@ def env(request):
         "qa",
         "prod"
     ]
-    driver = None
     if env_name in supported_env:
         yield env_name
     else:
         raise ValueError(f"Unsupported environment: {env_name}")
-
-

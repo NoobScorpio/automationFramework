@@ -13,7 +13,8 @@ class TestBase:
     helper = Helper()
     tester = Cfg.get_tester()
 
-    def capture_screenshot(self, driver, name):
+    @staticmethod
+    def capture_screenshot(driver, name):
         if not os.path.exists(SS_PATH):
             os.makedirs(SS_PATH)
         file_name = os.path.join(SS_PATH, f"{name}.png")

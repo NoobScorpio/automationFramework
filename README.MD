@@ -87,6 +87,12 @@ or
 ```
 pytest -m "sanity or regression" .\tests\ --browser=chrome
 ```
+## Environment selection
+Use pytest **--env** to choose the environment(qa,dev,prod):
+```
+pytest -m "sanity" .\tests\ --env=dev
+```
+
 
 ## HTML Report
 To generate an HTML report for the tests, you can use the above commands with this **--html* extra command 

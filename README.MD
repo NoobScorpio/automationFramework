@@ -17,6 +17,11 @@ other IDEs, make sure that you have the following prerequisites installed:
 If your code editor already has an environment activated then you are good to go otherwise follow these commands:
 
 1. This will create a new environment with name venv
+```
+python -m venv venv
+```
+
+2. This will activate the environment:
 On a powershell window:
 ```
  .\venv\Scripts\Activate.ps1
@@ -28,10 +33,6 @@ venv\Scripts\activate
 On a linux\macos terminal:
 ```
 source venv/bin/activate
-```
-2. This will activate the environment:
-```
-python -m venv venv
 ```
 #### Python packages:
 Install the required with help of PyCharm package 

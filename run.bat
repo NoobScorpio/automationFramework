@@ -1,16 +1,15 @@
 @echo off
+:: Create virtual environment and activate it
+python -m venv venv
+call venv\Scripts\activate
 
-REM Set the path to the virtual environment
-set venv_path=.venv\Scripts\
+:: Install required packages
+pip install -r requirements.txt
 
-REM Activate the virtual environment
-call %venv_path%\activate.bat
+:: Create reports directory if it doesn't exist
+if not exist reports (
+    mkdir reports
+)
 
-REM You can add any command here
-pytest -m "sanity" --html=./reports/report.html tests/ --browser=edge
-
-REM Deactivate the virtual environment
-call %venv_path%\deactivate.bat
-
-REM Pause the execution to see the output
-pause
+:: Run pytest with html report and allure report, specify the browser as chrome
+pytest --html=reports\report.html --alluredir=reports .\tests\ --browser=chrome
